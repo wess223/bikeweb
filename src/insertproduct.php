@@ -16,7 +16,7 @@ try {
 
     ));
 
-    header("Location: http://localhost/bikeweb/produto.html"); /* Redirect browser */
+    header("Location: http://localhost/bikeweb/produtos.html"); /* Redirect browser */
     exit();
 
 } catch(PDOException $e) {
