@@ -38,15 +38,15 @@
 
 		<section class="contato container animar-interno">
 				
-				<form id="form_orcamento" class= "contato_form grid-8">
+				<form action="src/contato.php" method="post" id="form_orcamento" class= "contato_form grid-8">
 					<label for="nome">Nome</label>
-					<input type="text" id="nome">
+					<input type="text" name="nome" id="nome">
 					<label for="email">E-mail</label>
-					<input type="text" id="email">
+					<input type="text" name="email" id="email">
 					<label for="Telefone">Telefone</label>
-					<input type="text" id="email">
+					<input type="text" name="telefone" id="telefone">
 					<label for="espec">Especificações</label>
-					<textarea id="espec"></textarea>
+					<textarea name="espec" id="espec"></textarea>
 					<button type="submit" class="btn btn-preto">Enviar</button>
 				</form>
 				<div class="contato_dados grid-8">
